@@ -20,6 +20,10 @@ footer = st.container()
 with header:
     st.title('Agent-Based Model Portfolio Choice: Test Ouput')
 
+    with st.expander("Puzzling Impact of Interest Rates"):
+        st.write(" ... It follows, in contrast to what most students of principles of economics are taught, that higher interest rates generate more economic activity, not less. Unless high interest rates have a detrimental impact on some components of aggregate demand.")
+        st.caption("Godley, W & Lavoie, M, Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth, p. 114")        
+
     option = st.selectbox(
         'Select Test Output:',
         ('0% Interest on Government Bills Issued', '2.5% Interest on Government Bills Issued', '2.5% to 3.5% Bills (@Step 90)', '2.5% to 1.5% Bills (@Step 90)'))
