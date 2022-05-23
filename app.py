@@ -1,4 +1,4 @@
-# Studio: ABMSIM-UK
+# Studio: ABMPC-TEST
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -107,4 +107,4 @@ with model:
 
 
 with footer:
-    st.caption("[Studio](https://www.modernmoney.studio) website. [Developer](https://www.danielodriscoll.me.uk) website.")
+    st.caption("[Studio](https://www.modernmoney.studio) website. [TransmissionVamp](https://www.transmissionvamp.com) website.")
