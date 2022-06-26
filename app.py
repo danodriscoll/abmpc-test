@@ -1,4 +1,4 @@
-# Studio: ABMPC-TEST
+#ABMPC-TEST
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -107,4 +107,4 @@ with model:
 
 
 with footer:
-    st.caption("View a list of [data apps](https://share.streamlit.io/danodriscoll/transvamp-apps/main/app.py). Visit the [TransmissionVamp](https://www.transmissionvamp.com) website.")
+    st.caption("Visit the [TransmissionVamp](https://www.transmissionvamp.com) website.")
